@@ -5,7 +5,7 @@
 
 ##To Submit this Assignment
   * fork this repository
-  * write all of your code in a folder containing your name
+  * write all of your code in a folder containing `lab-` + your name **e.g.** `lab-duncan`
   * push to your repository
   * submit a pull request to this repository
   * submit a link to your PR in canvas
