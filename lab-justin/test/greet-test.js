@@ -1,8 +1,7 @@
-'use-strict'
+'use-strict';
 
 const greet = require(__dirname + '/../lib/index');
 const assert = require('assert');
-
 
 describe('test module lib/index.js', function(){
   describe('test function greet()', function(){
@@ -11,6 +10,6 @@ describe('test module lib/index.js', function(){
       process.argv[2] = 'abc';
       assert.equal(greet(), 'hello ' + process.argv[2]);
 
-	 });
+    });
   });
 });
